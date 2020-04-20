@@ -328,7 +328,7 @@ if __name__ == '__main__':
       '--data_url',
       type=str,
       # pylint: disable=line-too-long
-      default='https://storage.googleapis.com/download.tensorflow.org/data/speech_commands_v0.02.tar.gz',
+      default='https://water-data.s3.us-east-1.amazonaws.com/speech_commands_v0.02.tar.gz?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMyJHMEUCIQDeb4ofzP5C8eEiN90dCCefjYRhf4RcR4%2FaBFo7ObYKeQIgLjOSZXvhWyRD%2FJ%2BF9WoJEHCKEvEpnjjdwUlJDUkmbkwqtAEIExAAGgwxNjg4MTU1NTE1NjQiDBRRLxtImbhbtpN9OSqRAYf2UMWc%2BYRX%2BdX4NHLbMtI68hbnAkqGsQh8pCU3uCX8e7fGkMfuTnbFUn%2B5VKk3%2BgSX5C8Ysxd3pAnTN1f3qeDxTa96ttoXX2v8jFP1pcx7z5i5c4o6XaKyeZGTLlbn%2BzutbtVwJWubb9aI3gGtxV4VVXIu%2Bg1uW11z%2Bbmvlr6LggUoBig7tiDDd9%2FIhP2o50gwjNr19AU6oQJaE9%2BUAM6i18Jq08Rw7Ogfls28cDOvLGKIpmSTqxENLLT8JZ%2FGLrZWhsKYnDMzaSFXxgT1AFPRMf2sB4oEZp92drU9hRWhfp7tSad3BeLJI1TN322tHDhNFZd65a1Lja2bRc03SIeCxfsGEadfMApTEM0kkzzKME8DDuCKVrZ3tnzgPlxVmMhh8OczfouKv%2BZM1YHZ09pDnFNFzl5NAJF%2BRjlvXkakUTCXeRltrIlkcA9HIZsK%2Fx%2BW0U2MkbVrm7eK%2BcN5qnrfb66CwHxdE%2B3bHOZdTJH01autIP1W8Fr190DzehlzU5FHa57Kxkfkkr6FkTMGEJfMKBkg4bs2njMTtdrFeXwa9jJCmSthPhlc4bbBMhBvSaQxvbBmhP1AaLSZ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200420T201309Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIASOTRQ4RGDWTFKFTO%2F20200420%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ee7c4297cd967143ac8c22fb3a6b8cd8b0aa18d99a2b2e4f5bd356c161f685c5',
       # pylint: enable=line-too-long
       help='Location of speech training data archive on the web.')
   parser.add_argument(
