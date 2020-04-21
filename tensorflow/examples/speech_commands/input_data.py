@@ -295,6 +295,7 @@ class AudioProcessor(object):
         self.data_index[set_index].append({'label': word, 'file': wav_path})
       else:
         unknown_index[set_index].append({'label': word, 'file': wav_path})
+    print(all_words)
     if not all_words:
       raise Exception('No .wavs found at ' + search_path)
     for index, wanted_word in enumerate(wanted_words):
